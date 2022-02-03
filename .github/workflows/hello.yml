@@ -1,0 +1,11 @@
+name: Hello Word
+on:
+  push:
+    branches:
+      - master
+jobs: 
+  hello_word_job:
+    runs-on:  ububtu-18.04
+    steps:
+      - name: Say hello
+        run: echo "Hello Word!"
