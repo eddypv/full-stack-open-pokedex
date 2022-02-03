@@ -8,4 +8,5 @@ jobs:
     runs-on:  ububtu-18.04
     steps:
       - name: Say hello
-        run: echo "Hello Word!"
+        run: |
+          echo "Hello World!"
