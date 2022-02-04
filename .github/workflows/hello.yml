@@ -1,11 +1,13 @@
-name: Hello Word
+name: Hello World!
+
 on:
   push:
     branches:
       - master
-jobs: 
-  hello_word_job:
-    runs-on:  ububtu-18.04
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-18.04
     steps:
       - name: Say hello
         run: |
