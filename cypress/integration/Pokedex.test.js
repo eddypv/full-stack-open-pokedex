@@ -6,7 +6,7 @@ describe('Pokedex', function() {
   })
   it('Pokemon page can be navigated to', function() {
     cy.visit('http://localhost:5000')
-    cy.get('#app a[href="/pokemon/ivysaur"]').should("exist")
-    
+    cy.get('#app a[href="/pokemon/ivysaur"]').should('exist')
+
   })
 })
