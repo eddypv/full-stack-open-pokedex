@@ -4,7 +4,6 @@ on:
   pull_request:
     branches: [master]
     types: [opened, synchronize]
-
 jobs:
   simple_deployment_pipeline:
     runs-on: ubuntu-18.04
@@ -34,5 +33,5 @@ jobs:
           heroku_app_name: "pokedex2022"
           heroku_email: "eddypv0@gmail.com"
           healthcheck: "https://pokedex2022.herokuapp.com/health"
-          checkstring: "ok"
+          checkstring: "ook"
           rollbackonhealthcheckfailed: true
